@@ -1,0 +1,55 @@
+.carousel-wrapper {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.carousel-container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.content {
+  height: 165px;
+  background-color: salmon;
+  border-radius: 10px;
+}
+
+.carousel-container h2 {
+  margin-bottom: 10px;
+}
+
+.slick-slide > div {
+  margin: 0 15px;
+}
+
+.slick-list > div {
+  margin: 0 -160px;
+}
+
+.custom-prev-arrow, .custom-next-arrow {
+  position: absolute;
+  top: 175px;
+  font-size: 22px;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: cadetblue;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-prev-arrow {
+    left: 520px;
+}
+
+.custom-next-arrow {
+    left: 560px;
+}
+
+.custom-next-arrow:hover, .custom-prev-arrow:hover {
+    background-color: rgb(20, 54, 55);
+    color: coral;
+}

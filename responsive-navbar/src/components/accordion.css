@@ -1,0 +1,49 @@
+.accordion-container {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: white;
+}
+
+.question1, .question2{
+    border-bottom: 1px solid black;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.question3 {
+    padding: 6px;
+    cursor: pointer;
+}
+
+.answer-1, .answer-2, .answer-3 {
+    padding: 6px;
+}
+
+.answer-1, .answer-2 {
+    border-bottom: 1px solid black;
+}
+
+.answer-3 {
+    border-top: 1px solid black;
+}
+
+.question1, .question2, .question3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon1-open, .icon2-open, .icon3-open {
+    transform: rotate(180deg);
+    transition: .25s;
+}
+
+.icon1, .icon2, .icon3 {
+    transition: .25s;
+}
+
+.bi-chevron-down {
+    font-size: 12px;
+}
